@@ -1,5 +1,3 @@
-import { Button } from '@rneui/base';
-import React from 'react';
 import {
   StyleSheet,
   SafeAreaView,
@@ -42,8 +40,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: 'transparent',
     borderWidth: 1,
+    borderColor: '#B2BEB5',
     paddingHorizontal: 20,
-    paddingVertical: 20,
+    paddingVertical: 13,
   },
   input: {
     flex: 1,
