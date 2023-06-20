@@ -2,6 +2,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
 import NewRelease from '../components/NewRelease';
+import HomeSongPlaylist from '../components/HomeSongPlaylist';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -18,7 +19,8 @@ function Home() {
     <View style={styles.container}>
       <Header />
       <View style={styles.content}>
-        <NewRelease/>
+        <NewRelease />
+        <HomeSongPlaylist />
       </View>
       <Navbar />
     </View>
