@@ -3,7 +3,7 @@ import Carousel, { Pagination } from 'react-native-snap-carousel';
 import { Dimensions } from 'react-native';
 import React, { useState, useRef } from 'react';
 
-const sliderWidth = Dimensions.get('window').width + 30;
+const sliderWidth = Dimensions.get('window').width + 10;
 const itemWidth = Math.round(sliderWidth * 0.4);
 
 const data = [
