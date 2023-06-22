@@ -62,6 +62,7 @@ const NewRelease = () => {
 
   return (
     <View style={styles.container}>
+      <Text>New Releases</Text>
       <Carousel
         ref={isCarousel}
         data={data}
