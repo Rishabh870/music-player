@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
+import { StyleSheet,ScrollView, Text, View, TouchableOpacity } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import Icons from 'react-native-vector-icons/MaterialIcons';
 
@@ -17,6 +17,7 @@ const style = StyleSheet.create({
 
 function Navbar() {
   return (
+    <ScrollView stickyHeaderIndices={[1]}>
     <View style={style.Navbar}>
       <View style={style.button}>
         <TouchableOpacity>
@@ -44,6 +45,7 @@ function Navbar() {
         </TouchableOpacity>
       </View>
     </View>
+    </ScrollView>
   );
 }
 

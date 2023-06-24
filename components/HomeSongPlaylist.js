@@ -7,9 +7,15 @@ import {
   TextInput,
   TouchableOpacity,
 } from 'react-native';
-
+import Resent from './Resent';
+import Popular from './Popular';
+import NewRelease from './NewRelease';
 function HomeSongPlaylist() {
-  return <Text>HomeSongPlaylist</Text>;
+  return <View>
+    <NewRelease />
+        <Resent/>
+        <Popular/>
+  </View>;
 }
 
 export default HomeSongPlaylist;
